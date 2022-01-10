@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata>
+    <id>Unisys.ePortal.DatasourceNET</id>
+    <version>11.1.28</version>
+    <authors>Unisys</authors>
+    <owners>Unisys</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package adds the references to the libraries required to access a ClearPath ePortal data source project from a .Net Core presentation project.</description>
+    <references>
+      <group targetFramework="net5.0">
+        <reference file="CEdotNetX.dll" />
+        <reference file="CEWindowsAPIX.dll" />
+        <reference file="Unisys.ABSuiteX.Connector.dll" />
+        <reference file="Unisys.Common.EISConnectorsX.dll" />
+        <reference file="Unisys.Common.EPortal.EncodingX.dll" />
+        <reference file="Unisys.Common.RuntimeX.dll" />
+        <reference file="Unisys.Common.SharedX.dll" />
+        <reference file="Unisys.Cobol.BitFiddlerX.dll" />
+        <reference file="Unisys.Cobol.InterpreterX.dll" />
+        <reference file="Unisys.MCPCobol.InterpreterX.dll" />
+        <reference file="Unisys.MCPCobolX.Connector.dll" />
+      </group>
+    </references>
+  </metadata>
+</package>
